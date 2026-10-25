@@ -3,11 +3,11 @@
 Signed AutoCut updates and installers. AutoCut checks this feed by itself and installs updates with one click
 (This Mac → Updates); there's nothing to do here by hand.
 
-**Current version: 0.26.2** (2026-10-25)
+**Current version: 0.27.0** (2026-10-25)
 
 New computer? Download the installer:
 
-- **Mac:** [AutoCut-0.26.2.dmg](AutoCut-0.26.2.dmg?raw=1) (open it, right-click **Install AutoCut** → Open)
+- **Mac:** [AutoCut-0.27.0.dmg](AutoCut-0.27.0.dmg?raw=1) (open it, right-click **Install AutoCut** → Open)
 - **Mac (zip):** [AutoCut-Beta.zip](AutoCut-Beta.zip?raw=1)
 - **Windows:** [AutoCut-Windows-Beta.zip](AutoCut-Windows-Beta.zip?raw=1) (right-click → Extract All, then **Install AutoCut (Windows).cmd**)
 
