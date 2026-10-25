@@ -1,0 +1,49 @@
+{
+ "app": "autocut",
+ "format": 1,
+ "generated": "2026-10-25T15:04:13+00:00",
+ "channels": {
+  "stable": {
+   "version": "0.26.2",
+   "url": "AutoCut-update-0.26.2.zip",
+   "sha256": "baf0210a9498c5dfd7c0ac35bc7cdf56915b615248531134c50d2e6f2f94a7cd",
+   "size": 3786255,
+   "date": "2026-10-25",
+   "notes": [
+    "**Updates switched on:** AutoCut now checks Triumphant Media's signed update feed by itself and offers new versions with one click (This Mac \u2192 Updates). New computers download the installer from the releases page",
+    "Releases publish with `tools/release.py publish-git` (into the public releases repo; the weekly upgrade does it) or `publish-github` (GitHub Releases through the REST API, for GitHub Actions)"
+   ],
+   "min_version": ""
+  },
+  "beta": {
+   "version": "0.26.2",
+   "url": "AutoCut-update-0.26.2.zip",
+   "sha256": "baf0210a9498c5dfd7c0ac35bc7cdf56915b615248531134c50d2e6f2f94a7cd",
+   "size": 3786255,
+   "date": "2026-10-25",
+   "notes": [
+    "**Updates switched on:** AutoCut now checks Triumphant Media's signed update feed by itself and offers new versions with one click (This Mac \u2192 Updates). New computers download the installer from the releases page",
+    "Releases publish with `tools/release.py publish-git` (into the public releases repo; the weekly upgrade does it) or `publish-github` (GitHub Releases through the REST API, for GitHub Actions)"
+   ],
+   "min_version": ""
+  }
+ },
+ "installers": {
+  "mac": {
+   "url": "AutoCut-Beta.zip",
+   "sha256": "83c9b3274afd4ef3f237e7df8918399caf57eeb8a75c87d5a28a0677132a80b9",
+   "size": 3839368
+  },
+  "windows": {
+   "url": "AutoCut-Windows-Beta.zip",
+   "sha256": "56a58263d67c22ed2b5f87aa5225eba7e3b231127bb32c6fa0dd6735694432a8",
+   "size": 3839446
+  },
+  "mac_dmg": {
+   "url": "AutoCut-0.26.2.dmg",
+   "sha256": "4663129003def727e6cc4988a80115ccec62a1a3093a418ab452261dac3532d1",
+   "size": 2935333
+  }
+ },
+ "packs": []
+}
