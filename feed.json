@@ -1,31 +1,39 @@
 {
  "app": "autocut",
  "format": 1,
- "generated": "2026-10-26T07:07:32+00:00",
+ "generated": "2026-10-26T11:30:05+00:00",
  "channels": {
   "stable": {
-   "version": "0.28.1",
-   "url": "AutoCut-update-0.28.1.zip",
-   "sha256": "f27fe0afc1bc51522d8eecb194f9c4ef12d9bd8452d95ec8c5770378e4e03eec",
-   "size": 3841976,
+   "version": "0.29.0",
+   "url": "AutoCut-update-0.29.0.zip",
+   "sha256": "4ccc46884a86f5a08d73e94778563b4c98523520d92c103025ba06c9dbd4579c",
+   "size": 3869882,
    "date": "2026-10-26",
    "notes": [
-    "**Better Graphics designs (nightly AI training: designs).** Scored on a new benchmark of 81 designs across five brands: 7.9 \u2192 9.1 out of 10. Quotes and reviews are kept whole with the person's name; events get their day, time and place as pills and a button; offers get a headline, the terms and a button; stats keep their sign and unit and big numbers fit the width; headlines start with a capital",
-    "**Readable colours everywhere:** text colour is now picked by real contrast (also in motion graphics), brand colours used as text are adjusted until they read, and a logo that would disappear into a light background is shown in one solid colour",
-    "The AI's design know-how gained checkable rules and worked examples. New quality scoreboard: docs/QUALITY.md"
+    "**13 new caption styles of our own** (Clients \u2192 Caption style, with a Sample button for each): neon glow, marker, spring up, typewriter, hollow, ribbon, slide up, focus in, impact, stack, sticker, subtle and icon pops (an icon pops above the key words). 18 in all",
+    "**Emphasis words:** the AI (or the rules, without AI) picks the words a viewer should feel (the number, the promise, the payoff) and every style colours them. Set your own colour with captions: keyword_color",
+    "**Safe zones for vertical video:** captions sit above the platform's caption and buttons and clear of the side column",
+    "**Smart punch-ins:** besides tight/wide at every cut, the shot punches in on each emphasis word and cuts back out at the end of the phrase. Markers in the Premiere XML show each one. New clients get it; switch any client with punch_ins: pattern: smart",
+    "**AI dubbing** (a finished video \u2192 More \u2192 Dub into another language): translated by the AI (or paste your own translation), voiced by AutoCut's own built-in voice for that language (never a copy of the speaker's voice), each line fitted to its moment. You get translated captions in the client's style, an SRT, a Premiere XML with the dub on A1 (music and effects kept) and a preview. Spanish, French, Italian, Portuguese, Hindi and English. Labelled as AI everywhere; label it when you post. Also `autocut dub` and the MCP connector (dub_video)",
+    "**Teleprompter recorder:** Short form edits \u2192 \"Record with the teleprompter\". The script scrolls over your webcam, record in the browser, and the take goes straight into the queue with the effects you picked",
+    "AutoCut's voice downloads once (about 340 MB) from the Dub window or with `autocut voice-setup`"
    ],
    "min_version": ""
   },
   "beta": {
-   "version": "0.28.1",
-   "url": "AutoCut-update-0.28.1.zip",
-   "sha256": "f27fe0afc1bc51522d8eecb194f9c4ef12d9bd8452d95ec8c5770378e4e03eec",
-   "size": 3841976,
+   "version": "0.29.0",
+   "url": "AutoCut-update-0.29.0.zip",
+   "sha256": "4ccc46884a86f5a08d73e94778563b4c98523520d92c103025ba06c9dbd4579c",
+   "size": 3869882,
    "date": "2026-10-26",
    "notes": [
-    "**Better Graphics designs (nightly AI training: designs).** Scored on a new benchmark of 81 designs across five brands: 7.9 \u2192 9.1 out of 10. Quotes and reviews are kept whole with the person's name; events get their day, time and place as pills and a button; offers get a headline, the terms and a button; stats keep their sign and unit and big numbers fit the width; headlines start with a capital",
-    "**Readable colours everywhere:** text colour is now picked by real contrast (also in motion graphics), brand colours used as text are adjusted until they read, and a logo that would disappear into a light background is shown in one solid colour",
-    "The AI's design know-how gained checkable rules and worked examples. New quality scoreboard: docs/QUALITY.md"
+    "**13 new caption styles of our own** (Clients \u2192 Caption style, with a Sample button for each): neon glow, marker, spring up, typewriter, hollow, ribbon, slide up, focus in, impact, stack, sticker, subtle and icon pops (an icon pops above the key words). 18 in all",
+    "**Emphasis words:** the AI (or the rules, without AI) picks the words a viewer should feel (the number, the promise, the payoff) and every style colours them. Set your own colour with captions: keyword_color",
+    "**Safe zones for vertical video:** captions sit above the platform's caption and buttons and clear of the side column",
+    "**Smart punch-ins:** besides tight/wide at every cut, the shot punches in on each emphasis word and cuts back out at the end of the phrase. Markers in the Premiere XML show each one. New clients get it; switch any client with punch_ins: pattern: smart",
+    "**AI dubbing** (a finished video \u2192 More \u2192 Dub into another language): translated by the AI (or paste your own translation), voiced by AutoCut's own built-in voice for that language (never a copy of the speaker's voice), each line fitted to its moment. You get translated captions in the client's style, an SRT, a Premiere XML with the dub on A1 (music and effects kept) and a preview. Spanish, French, Italian, Portuguese, Hindi and English. Labelled as AI everywhere; label it when you post. Also `autocut dub` and the MCP connector (dub_video)",
+    "**Teleprompter recorder:** Short form edits \u2192 \"Record with the teleprompter\". The script scrolls over your webcam, record in the browser, and the take goes straight into the queue with the effects you picked",
+    "AutoCut's voice downloads once (about 340 MB) from the Dub window or with `autocut voice-setup`"
    ],
    "min_version": ""
   }
@@ -33,18 +41,18 @@
  "installers": {
   "mac": {
    "url": "AutoCut-Beta.zip",
-   "sha256": "13474ce73d46abccf4728d32b81cf7e7559dc3574a440279afc684075a40c37a",
-   "size": 3895135
+   "sha256": "20b5ef13e318a5ee52c20d7b2ba835beb460ea685171f7cba5dbf4d1cce00dc7",
+   "size": 3923113
   },
   "windows": {
    "url": "AutoCut-Windows-Beta.zip",
-   "sha256": "c93706d9de117edcb8ced3cd12c7d82f6a571ff3ec893e45f87cc44ac7d0d6ff",
-   "size": 3895213
+   "sha256": "06d65a7e2e3dc4b757b41aae300ea18e53df0c2cbf8412d0e5590c4b11872fc5",
+   "size": 3923191
   },
   "mac_dmg": {
-   "url": "AutoCut-0.28.1.dmg",
-   "sha256": "ef670aa99c1f063ca186a7d5d6edf81149c61c88c31ca0df695cae8dff989ce0",
-   "size": 2989774
+   "url": "AutoCut-0.29.0.dmg",
+   "sha256": "db0173792a6307cb96fa763da51ace0164617e2fb0b11454a50124e055efc90f",
+   "size": 3014915
   }
  },
  "packs": []
