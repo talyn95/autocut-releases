@@ -1,31 +1,31 @@
 {
  "app": "autocut",
  "format": 1,
- "generated": "2026-10-26T02:11:28+00:00",
+ "generated": "2026-10-26T07:07:32+00:00",
  "channels": {
   "stable": {
-   "version": "0.28.0",
-   "url": "AutoCut-update-0.28.0.zip",
-   "sha256": "8ffeb6d85877943eed63cc6e5ad2b71b6e78af7e822fb8517882b3079b9c0068",
-   "size": 3829589,
+   "version": "0.28.1",
+   "url": "AutoCut-update-0.28.1.zip",
+   "sha256": "f27fe0afc1bc51522d8eecb194f9c4ef12d9bd8452d95ec8c5770378e4e03eec",
+   "size": 3841976,
    "date": "2026-10-26",
    "notes": [
-    "**Effects edit** (Create tab \u2192 Transcript to video \u2192 Style): drop a talking-head take and every sentence gets its own effect, so the video never sits still. 17 effects: paper cut-out, magazine cover, screen wall, pixel zoom, sketch boil, graph rise, glass text, orbit spin, pull-out reveal, phone frame, dolly zoom, news wall, frame pop, punch-through cut, green screen, interface world and tick list. The AI picks the one that shows what each sentence says (a list ticks off, a number becomes a rising graph, \"but\" punches through), never the same twice in a row. Bold captions, an effect counter in the corner, music and sound design included. Also in the MCP connector (make_effects_video)",
-    "**The AI sound designer:** before the music and sound effects are made, the AI plans them like a trailer editor: where the music lifts and breathes, which key line gets the drums dropped so it lands, and which moments get a hit. Add plain-English notes per client in brand.yaml (sound: notes). Works without AI too (rules)",
-    "**AutoCut's own voice:** a local, free voiceover engine (no account, works offline), ready for dubbing and demos"
+    "**Better Graphics designs (nightly AI training: designs).** Scored on a new benchmark of 81 designs across five brands: 7.9 \u2192 9.1 out of 10. Quotes and reviews are kept whole with the person's name; events get their day, time and place as pills and a button; offers get a headline, the terms and a button; stats keep their sign and unit and big numbers fit the width; headlines start with a capital",
+    "**Readable colours everywhere:** text colour is now picked by real contrast (also in motion graphics), brand colours used as text are adjusted until they read, and a logo that would disappear into a light background is shown in one solid colour",
+    "The AI's design know-how gained checkable rules and worked examples. New quality scoreboard: docs/QUALITY.md"
    ],
    "min_version": ""
   },
   "beta": {
-   "version": "0.28.0",
-   "url": "AutoCut-update-0.28.0.zip",
-   "sha256": "8ffeb6d85877943eed63cc6e5ad2b71b6e78af7e822fb8517882b3079b9c0068",
-   "size": 3829589,
+   "version": "0.28.1",
+   "url": "AutoCut-update-0.28.1.zip",
+   "sha256": "f27fe0afc1bc51522d8eecb194f9c4ef12d9bd8452d95ec8c5770378e4e03eec",
+   "size": 3841976,
    "date": "2026-10-26",
    "notes": [
-    "**Effects edit** (Create tab \u2192 Transcript to video \u2192 Style): drop a talking-head take and every sentence gets its own effect, so the video never sits still. 17 effects: paper cut-out, magazine cover, screen wall, pixel zoom, sketch boil, graph rise, glass text, orbit spin, pull-out reveal, phone frame, dolly zoom, news wall, frame pop, punch-through cut, green screen, interface world and tick list. The AI picks the one that shows what each sentence says (a list ticks off, a number becomes a rising graph, \"but\" punches through), never the same twice in a row. Bold captions, an effect counter in the corner, music and sound design included. Also in the MCP connector (make_effects_video)",
-    "**The AI sound designer:** before the music and sound effects are made, the AI plans them like a trailer editor: where the music lifts and breathes, which key line gets the drums dropped so it lands, and which moments get a hit. Add plain-English notes per client in brand.yaml (sound: notes). Works without AI too (rules)",
-    "**AutoCut's own voice:** a local, free voiceover engine (no account, works offline), ready for dubbing and demos"
+    "**Better Graphics designs (nightly AI training: designs).** Scored on a new benchmark of 81 designs across five brands: 7.9 \u2192 9.1 out of 10. Quotes and reviews are kept whole with the person's name; events get their day, time and place as pills and a button; offers get a headline, the terms and a button; stats keep their sign and unit and big numbers fit the width; headlines start with a capital",
+    "**Readable colours everywhere:** text colour is now picked by real contrast (also in motion graphics), brand colours used as text are adjusted until they read, and a logo that would disappear into a light background is shown in one solid colour",
+    "The AI's design know-how gained checkable rules and worked examples. New quality scoreboard: docs/QUALITY.md"
    ],
    "min_version": ""
   }
@@ -33,18 +33,18 @@
  "installers": {
   "mac": {
    "url": "AutoCut-Beta.zip",
-   "sha256": "8f5472133a6bb8a512248676103b15de7a681ce7790d3d4702995ddb140489b6",
-   "size": 3882822
+   "sha256": "13474ce73d46abccf4728d32b81cf7e7559dc3574a440279afc684075a40c37a",
+   "size": 3895135
   },
   "windows": {
    "url": "AutoCut-Windows-Beta.zip",
-   "sha256": "9d0544ad35f8a33551bb6e5e99dc269e23f8de5a30fc288b3a86ccc79d12e9f2",
-   "size": 3882900
+   "sha256": "c93706d9de117edcb8ced3cd12c7d82f6a571ff3ec893e45f87cc44ac7d0d6ff",
+   "size": 3895213
   },
   "mac_dmg": {
-   "url": "AutoCut-0.28.0.dmg",
-   "sha256": "a601a92d5fafbc094ede557c6e781718cae08f8dbe46cf133c651db12fe18f36",
-   "size": 2978722
+   "url": "AutoCut-0.28.1.dmg",
+   "sha256": "ef670aa99c1f063ca186a7d5d6edf81149c61c88c31ca0df695cae8dff989ce0",
+   "size": 2989774
   }
  },
  "packs": []
